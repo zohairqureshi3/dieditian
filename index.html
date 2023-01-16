@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietitian Your Way</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="custom-container">
+                <nav class="navbar navbar-expand-lg navbar-light header-navbar">
+                    <div class="container-fluid header-container">
+                      <a class="navbar-brand header-logo" href="#">
+                        <img class="img-fluid" src="images/headerlogo.svg" alt="" />
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="images/1111.png" class="img-fluid" alt="">
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          
+                          <li class="nav-item">
+                            <span class="arrow-down"></span>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <span class="arrow-down"></span>
+                            <a class="nav-link" href="#">About us</a>
+                          </li>
+                          <li class="nav-item">
+                            <span class="arrow-down"></span>
+                            <a class="nav-link" href="#">Dietitian Profile</a>
+                          </li>
+                          <li class="nav-item">
+                            <span class="arrow-down"></span>
+                            <a class="nav-link" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <span class="arrow-down"></span>
+                            <a class="nav-link" href="#">Refer a Friend</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+                <div class="login-button-content" >
+                    <button type="button" class="login-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <img class="img-fluid" id="login-button-img" src="images/usericon.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="login-model" id="login-model">
+                      <div class="login-model-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <p class="login-text">Login</p>
+                        <form>
+                          <div class="mb-3 input-email">
+                            <input type="email" placeholder="Email ID" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                          <div class="input-password">
+                            <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="forget-password-link">
+                            <a href="#">Forgot your password ?</a>
+                          </div>
+                          <div class="model-enter-button"><button type="submit" class="btn btn-primary">Enter</button></div>
+                        </form>
+                        <div class="model-create-account">
+                          <p class="not-an-account-link">You have not an account!</p>
+                          <a class="model-create-account-link" href="#">Create free account</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <section id="banner">
+                <div class="banner-img">
+                    <img class="img-fluid" src="images/banner.png" alt="">
+                </div>
+                <div class="container-fluid custom-container">
+                    <div class="banner-content">
+                        <h1>Nutri-o-Diet</h1>
+                        <h4>Free access to thousands of professional practitioners (nutritionists/Dieticians) under one umbrella.</h4>
+                    </div>
+                </div>
+            </section>
+            <section id="find-your-dietitian">
+              <div class="container-fluid custom-container">
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="find-dietition">
+                      <h3>Find Your Dietitians</h3>
+                      <p>Every person has access to personalized nutrition and is empowered to improve their health through the world’s most cutting-edge technology in the field.</p>
+                      <div class="day-time d-flex justify-content-between">
+                        <div class="day">Monday Friday:</div>
+                        <div class="time">9am > 7pm</div>
+                      </div>
+                        <form class="dietitian-details d-flex">
+                          <input type="text" class="form-control d-area" placeholder="Preferred area" aria-label="Username">
+                          <input type="text" class="form-control d-name" placeholder="Dietatians name" aria-label="Username">
+                          <button type="button" class="btn btn-primary d-button">FindOut</button>
+                        </form>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="join-dietition">
+                      <div class="dlogo">
+                        <img class="img-fluid" src="images/dlogo.svg" alt="">
+                      </div>
+                      <p class="dlogo-para">Our aim behind this development is to provide free access to thousands of professional practitioners (nutritionists/Dieticians)</p>
+                      <button class="btn btn-danger dlogo-button">Join as Dietitian</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="explore-states">
+              <div class="container-fluid custom-container">
+                <h3>Explore by States</h3>
+                <div class="states d-flex">
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Alabama</p>
+                      <p class="state-info">200 Dieticians</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/alaska.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Alaska</p>
+                      <p class="state-info">100 Nutritionists</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/Arkassas.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Arizona</p>
+                      <p class="state-info">40 Nutritionists/Dieticians</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Arkansas</p>
+                      <p class="state-info">20 Nutritionists</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/alaska.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">California</p>
+                      <p class="state-info">80 Nutritionists/Dieticians</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Hawaii</p>
+                      <p class="state-info">120 Nutritionists</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Illinois</p>
+                      <p class="state-info">14 Nutritionists/Dieticians</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Iowa</p>
+                      <p class="state-info">47 Dieticians</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Kansas</p>
+                      <p class="state-info">12 Dieticians</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Kentucky</p>
+                      <p class="state-info">90 Nutritionists/Dieticians</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Michigan</p>
+                      <p class="state-info">120 Nutritionists</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Minnesota</p>
+                      <p class="state-info">14 Nutritionists/Dieticians</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Missouri</p>
+                      <p class="state-info">47 Nutritionists</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Nebraska</p>
+                      <p class="state-info">12 Nutritionists/Dieticians</p>
+                    </div>
+                  </div>
+                  <div class="state d-flex">
+                    <div class="state-img"><img class="img-fluid" src="images/albama.png" alt=""></div>
+                    <div class="state-details">
+                      <p class="state-name">Nevada</p>
+                      <p class="state-info">90 Nutritionists</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="load-more-btn">
+                  <button class="load-more btn btn-primary">Load More...</button>
+                </div>
+              </div>
+            </section>
+            <section id="how-dietitian-works">
+              <div class="container-fluid custom-container">
+                <div class="headings">
+                  <h3>How Dietitian Work For You</h3>
+                  <p class="dietitian-works-para">Just 3 easy steps dulla in euismod magna. Mauris et tincidunt enim. Aenean lobortis nisl in erat tempor porta. In sagittis condimentum sapien, sit amet rutrum nunc laoreet id. Maecenas pulvinar felis nisi, quis aliquam metus lacinia ac.</p>
+                </div>
+                <div class="work-details">
+                  <div class="row">
+                    <div class="col-md-4 work-detail">
+                      <div class="box-wrapper">
+                        <div class="dietitian-number">
+                          <div class="d-number">1.</div>
+                        </div>
+                        <div class="box-details">
+                          <div class="arrow-up"></div>
+                          <h6>We are federally qualified health center</h6>
+                          <p>Login auris et tincidunt enim. Aenean lobortis nisl in erat tempor porta. In sagittis conentum.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 work-detail">
+                      <div class="box-wrapper">
+                        <div class="dietitian-number">
+                          <div class="d-number">2.</div>
+                        </div>
+                        <div class="box-details">
+                          <div class="arrow-up"></div>
+                          <h6>Very quick response on queries any time</h6>
+                          <p>Our medical providers review and get your consultation within 2 hours.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 work-detail">
+                      <div class="box-wrapper">
+                        <div class="dietitian-number">
+                          <div class="d-number">3.</div>
+                        </div>
+                        <div class="box-details">
+                          <div class="arrow-up"></div>
+                          <h6>Easy and quick treatment of your issue</h6>
+                          <p>Its all done, Now pick up prescription at your local pharmacy.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="services">
+              <div class="container-fluid custom-container">
+                <div class="services-header">
+                  <h5>Services Built For You</h5>
+                  <p>Dietitian offers the health platform to make decisions based on how you want to stay healthy.</p>
+                </div>
+                <div class="services-list">
+                  <div class="row">
+                    <div class="col-md-3 list">
+                      <div class="list-img">
+                        <img class="img-fluid" src="images/mic.svg" alt="">
+                      </div>
+                      <p class="list-para">Talk with verified doctors using either text, voice, or video options.</p>
+                    </div>
+                    <div class="col-md-3 list">
+                      <div class="list-img">
+                        <img class="img-fluid" src="images/management.svg" alt="">
+                      </div>
+                      <p class="list-para">Refer their friends to use the platform loram hdivo.</p>
+                    </div>
+                    <div class="col-md-3 list">
+                      <div class="list-img">
+                        <img class="img-fluid" src="images/test.svg" alt="">
+                      </div>
+                      <p class="list-para">Request affordable blood tests and access results.</p>
+                    </div>
+                    <div class="col-md-3 list">
+                      <div class="list-img">
+                        <img class="img-fluid" src="images/calander.svg" alt="">
+                      </div>
+                      <p class="list-para">Set up and manage appointments with your doctor..</p>
+                    </div>
+                    <div class="col-md-3 list">
+                      <div class="list-img">
+                        <img class="img-fluid" src="images/blog.svg" alt="">
+                      </div>
+                      <p class="list-para">Blogs feature will be intended for the consumers to keep visiting.</p>
+                    </div>
+                    <div class="col-md-3 list">
+                      <div class="list-img">
+                        <img class="img-fluid" src="images/search.svg" alt="">
+                      </div>
+                      <p class="list-para">Personalize your experience. Find a doctor in preferred area.</p>
+                    </div>
+                    <div class="col-md-3 list">
+                      <div class="list-img">
+                        <img class="img-fluid" src="images/bell.svg" alt="">
+                      </div>
+                      <p class="list-para">Stay ahead with reminders on appointments, prescriptions, etc.</p>
+                    </div>
+                    <div class="col-md-3 list">
+                      <div class="list-img">
+                        <img class="img-fluid" src="images/emergency.svg" alt="">
+                      </div>
+                      <p class="list-para">24/7 online emergency support available.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="meet-dietitian">
+              <div class="meet-dietitian-bg-color">
+                <div class="container-fluid custom-container">
+                  <div class="meet-dietitian-contant">
+                    <h3>Meet Our Top Rated Dietitians</h3>
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="dietatian-list-wrapper">
+                <div class="dietitian-list">
+                  <div class="container-fluid custom-container">
+                    <div class="row">
+                      <div class="col-md-4 dietitian-list-col">
+                        <div class="dietatian-contant">
+                          <div class="dietitian-img">
+                            <img class="img-fluid" src="images/welbert.png" alt="">
+                          </div>
+                          <p class="dietitian-name">Wilbert Cainim</p>
+                          <p class="dietitian-job"><span class="highlight-color">Specialties:</span> Dietitians</p>
+                          <hr class="hr-line" />
+                          <p class="dietitian-experience">
+                            12 years of experience University of Illinois at Chicago Medical
+                          </p>
+                          <div class="icons-stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                          </div>
+                          <p class="dietitian-reviews">5 stars from 305 reviews</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4 dietitian-list-col">
+                        <div class="dietatian-contant">
+                          <div class="dietitian-img">
+                            <img class="img-fluid" src="images/tristan.png" alt="">
+                          </div>
+                          <p class="dietitian-name">Tristan. Cheam</p>
+                          <p class="dietitian-job"><span class="highlight-color">Specialties:</span> Dietitians</p>
+                          <hr class="hr-line" />
+                          <p class="dietitian-experience">
+                            7 years of experience University of Toronto
+                          </p>
+                          <div class="icons-stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                          </div>
+                          <p class="dietitian-reviews">5 stars from 50 reviews</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4 dietitian-list-col">
+                        <div class="dietatian-contant">
+                          <div class="dietitian-img">
+                            <img class="img-fluid" src="images/elis.png" alt="">
+                          </div>
+                          <p class="dietitian-name">Elis Eim</p>
+                          <p class="dietitian-job"><span class="highlight-color">Specialties:</span> Dietitians</p>
+                          <hr class="hr-line" />
+                          <p class="dietitian-experience">
+                            4 years of experience Meharry Medical College
+                          </p>
+                          <div class="icons-stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                          </div>
+                          <p class="dietitian-reviews">5 stars from 210 reviews</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="experience-dietitian">
+              <div class="container-fluid custom-container">
+                <div class="experience-dietitian-img">
+                  <img class="img-fluid" src="images/experiencedietitian.png" alt="">
+                </div>
+                <div class="experience-dietitian-contant">
+                  <h2>ARE YOU Experienced Dietitian?</h2>
+                  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                  <button class="btn btn-danger dlogo-button">Join as Dietitian</button>
+                </div>
+              </div>
+            </section>
+            <section id="cities-areas">
+              <div class="container-fluid custom-container">
+                <h3>Popular Cities and Areas</h3>
+
+
+                <ul class="nav nav-pills cities-areas-tabs" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Cities</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Popular Areas</button>
+                  </li>
+                  <hr class="hrline-2" />
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="all-cities d-flex">
+                      <div class="cities">
+                        <p class="city-name">Atlanta, GA</p>
+                        <p class="city-dietician">20 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Columbus, OH</p>
+                        <p class="city-dietician">12 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Las Vegas, NV</p>
+                        <p class="city-dietician">41 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Nashville, TN</p>
+                        <p class="city-dietician">32 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Portland, OR</p>
+                        <p class="city-dietician">100 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Austin, TX</p>
+                        <p class="city-dietician">44 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Dallas, TX</p>
+                        <p class="city-dietician">10 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Los Angeles, CA</p>
+                        <p class="city-dietician">55 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">New York, NY</p>
+                        <p class="city-dietician">11 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Raleigh, NC</p>
+                        <p class="city-dietician">11 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Baltimore, MD</p>
+                        <p class="city-dietician">66 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Denver, CO</p>
+                        <p class="city-dietician">20 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Louisville, KY</p>
+                        <p class="city-dietician">33 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Oakland, CA</p>
+                        <p class="city-dietician">77 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Sacramento, CA</p>
+                        <p class="city-dietician">21 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Boston, MA</p>
+                        <p class="city-dietician">55 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Detroit, MI</p>
+                        <p class="city-dietician">44 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Memphis, TN</p>
+                        <p class="city-dietician">32 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Omaha, NE</p>
+                        <p class="city-dietician">44 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Saint Louis, MO</p>
+                        <p class="city-dietician">32 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Brooklyn, NY</p>
+                        <p class="city-dietician">44 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Houston, TX</p>
+                        <p class="city-dietician">88 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Miami, FL</p>
+                        <p class="city-dietician">41 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Philadelphia, PA</p>
+                        <p class="city-dietician">21 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">San Antonio, TX</p>
+                        <p class="city-dietician">144 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Charlotte, NC</p>
+                        <p class="city-dietician">33 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Indianapolis, IN</p>
+                        <p class="city-dietician">33 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Milwaukee, WI</p>
+                        <p class="city-dietician">24 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Phoenix, AZ</p>
+                        <p class="city-dietician">4 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">San Diego, CA</p>
+                        <p class="city-dietician">214 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Chicago, IL</p>
+                        <p class="city-dietician">21 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Jacksonville, FL</p>
+                        <p class="city-dietician">22 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Minneapolis, MN</p>
+                        <p class="city-dietician">11 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Pittsburgh, PA</p>
+                        <p class="city-dietician">7 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">San Francisco, CA</p>
+                        <p class="city-dietician">12 Dieticians</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="all-cities d-flex">
+                      <div class="cities">
+                        <p class="city-name">Atlanta, GA</p>
+                        <p class="city-dietician">20 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Columbus, OH</p>
+                        <p class="city-dietician">12 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Las Vegas, NV</p>
+                        <p class="city-dietician">41 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Nashville, TN</p>
+                        <p class="city-dietician">32 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Portland, OR</p>
+                        <p class="city-dietician">100 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Austin, TX</p>
+                        <p class="city-dietician">44 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Dallas, TX</p>
+                        <p class="city-dietician">10 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Los Angeles, CA</p>
+                        <p class="city-dietician">55 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">New York, NY</p>
+                        <p class="city-dietician">11 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Raleigh, NC</p>
+                        <p class="city-dietician">11 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Baltimore, MD</p>
+                        <p class="city-dietician">66 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Denver, CO</p>
+                        <p class="city-dietician">20 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Louisville, KY</p>
+                        <p class="city-dietician">33 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Oakland, CA</p>
+                        <p class="city-dietician">77 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Sacramento, CA</p>
+                        <p class="city-dietician">21 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Boston, MA</p>
+                        <p class="city-dietician">55 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Detroit, MI</p>
+                        <p class="city-dietician">44 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Memphis, TN</p>
+                        <p class="city-dietician">32 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Omaha, NE</p>
+                        <p class="city-dietician">44 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Saint Louis, MO</p>
+                        <p class="city-dietician">32 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Brooklyn, NY</p>
+                        <p class="city-dietician">44 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Houston, TX</p>
+                        <p class="city-dietician">88 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Miami, FL</p>
+                        <p class="city-dietician">41 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Philadelphia, PA</p>
+                        <p class="city-dietician">21 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">San Antonio, TX</p>
+                        <p class="city-dietician">144 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Charlotte, NC</p>
+                        <p class="city-dietician">33 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Indianapolis, IN</p>
+                        <p class="city-dietician">33 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Milwaukee, WI</p>
+                        <p class="city-dietician">24 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Phoenix, AZ</p>
+                        <p class="city-dietician">4 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">San Diego, CA</p>
+                        <p class="city-dietician">214 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Chicago, IL</p>
+                        <p class="city-dietician">21 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Jacksonville, FL</p>
+                        <p class="city-dietician">22 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Minneapolis, MN</p>
+                        <p class="city-dietician">11 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">Pittsburgh, PA</p>
+                        <p class="city-dietician">7 Dieticians</p>
+                      </div>
+                      <div class="cities">
+                        <p class="city-name">San Francisco, CA</p>
+                        <p class="city-dietician">12 Dieticians</p>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </section>
+        </main>
+        <footer id="footer">
+          <div class="container-fluid custom-container d-flex">
+            <div class="footer-logo">
+              <img class="img-fluid" src="images/footerlogo.svg" alt="">
+            </div>
+            <div class="social-icons">
+              <ul class="social-icons-list d-flex">
+                <li class="icon-youtube"><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li class="icon-twitter"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="icon-facebook"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li class="icon-linkedin"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <div class="subscribe-newsletter">
+              <form class="newsletter-form">
+                <label for="exampleInputEmail1" class="form-label">Subscribe to our newsletter</label>
+                <div class="mb-3 d-flex newsletter-email">
+                  <input type="email" placeholder="Enter your email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <button class="btn-subscribe btn btn-sucess">Subscribe</button>
+                </div>
+                
+              </form>
+            </div>
+            <div class="footer-navbar">
+              <ul class="footer-navbar-list d-flex">
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Latest News</a></li>
+                <li><a style="border-right: none;" href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="horitontal-line" />
+          <p class="footer-para">© 2021 Dietitian Your Way. All Rights Reserved</p>
+        </footer>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

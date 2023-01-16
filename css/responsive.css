@@ -1,0 +1,283 @@
+@media (max-width: 1399.98px) { 
+    .states .state {
+        width: 25%;
+    }
+    .experience-dietitian-contant{
+        left: 50px;
+    }
+    .dietitian-list {
+        max-width: unset;
+    }
+ }
+@media (max-width: 1199.98px) { 
+    #banner h1 {
+        line-height: 110px;
+    }
+    #banner h4{
+        padding-top: unset;
+    }
+    .states .state {
+        width: 33%;
+    }
+    li.nav-item {
+        margin-right: 10px
+    }
+    .custom-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+ }
+@media (max-width: 991.98px) { 
+    .banner-content {
+        top: 20px;
+    }
+    #banner h1 {
+        line-height: 90px;
+    }
+    h1{
+        font-size: 75px;
+    }
+    #find-your-dietitian .custom-container {
+        margin-top: -50px;
+    }
+    #banner h4{
+        width: 80%;
+    }
+    .meet-dietitian-contant {
+        padding-bottom: 200px;
+    }
+    .experience-dietitian-contant{
+        top: 65px;
+    }
+    .all-cities .cities {
+        width: 25%;
+    }
+    li.nav-item{
+        text-align: left;
+    }
+    .navbar-nav{
+        background: white;
+        padding: 15px;
+        box-shadow: 6px 11px 24px #00000012;
+        width: calc(100% + 50px);
+    }
+    .arrow-down{
+        display: none !important;
+    }
+    .navbar-nav .nav-item:hover > .nav-link{
+        text-decoration: underline;
+    }
+    h2{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .dietitian-details{
+        display: unset !important;
+    }
+    .dietitian-details input{
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    .d-button{
+        padding: 15px 22px;
+    }
+    .states .state {
+        width: 50%;
+    }
+    .dietitian-works-para{
+        max-width: unset;
+    }
+    .dlogo-para{
+        padding: 0 10px;
+    }
+    .experience-dietitian-contant p{
+        margin: 0;
+    }
+    .header-container{
+        padding: 0;
+    }
+    .day-time{
+        margin-bottom: 10px;
+    }
+    #explore-states {
+        margin-top: 50.39px;
+    }
+    .load-more-btn {
+        text-align: right;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    #how-dietitian-works {
+        padding-bottom: 50px;
+    }
+    .dietitian-list{
+        top: -100px;
+    }
+ }
+@media (max-width: 767.98px) { 
+    .states .state {
+        width: 50%;
+    }
+    .all-cities .cities {
+        width: 33%;
+    }
+    .banner-content {
+        top: 100px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #banner h4 {
+        width: 100%;
+    }
+    h4{
+        font-size: 20px;
+    }
+    #banner h1 {
+        line-height: 30px;
+    }
+    #find-your-dietitian .custom-container {
+        margin-top: -20px;
+    }
+    #find-your-dietitian .col-md-4{
+        margin-top: 20px;
+    }
+    .work-details::before{
+        display: none;
+    }
+    .work-details .work-detail{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .dietitian-list{
+        padding-bottom: unset;
+    }
+    .experience-dietitian-contant {
+        top: 67px;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .experience-dietitian-contant p{
+        margin: 0;
+    }
+    #experience-dietitian .dlogo-button{
+        padding: 5px 15px;
+    }
+    h4{
+        padding-right: 30px;
+    }
+    .d-button {
+        padding: 9px 20px;
+    }
+    #experience-dietitian {
+        margin-top: 40px;
+    }
+    #cities-areas {
+        margin-top: 40.19px;
+    }
+    .load-more-btn{
+        margin: 0;
+    }
+    .dietitian-list-col{
+        margin-bottom: 15px;
+    }
+ }
+@media (max-width: 575.98px) { 
+    .states .state {
+        width: 100%;
+    }
+    .header-logo{
+        width: 155px;
+    }
+    #banner h1 {
+        line-height: 20px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .banner-content {
+        top: 20px;
+    }
+    #banner h4{
+        font-size: 14px;
+        line-height: 1;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .all-cities .cities {
+        width: 100%;
+    }
+    .footer-navbar-list li a {
+        font-size: 12px;
+        padding: 0px 6px;
+    }
+    .newsletter-email{
+        display: unset !important;
+    }
+    .newsletter-email .form-control{
+        padding: 10px 10px;
+    }
+    .btn-subscribe{
+        margin-left: unset;
+        margin-top: 12px;
+    }
+    #header .custom-container{
+        padding-right: 30px;
+    }
+    h2 {
+        font-size: 19px;
+        line-height: 11px;
+    }
+    .experience-dietitian-contant p{
+        font-size: 10px;
+        line-height: 9px;
+        margin-bottom: 3px;
+    }
+    .login-button-content{
+        top: 0;
+    }
+    .navbar-toggler{
+        margin-right: 40px;
+    }
+    .find-dietition{
+        padding: 20px 20px 40px 20px;
+    }
+    #experience-dietitian .dlogo-button {
+        padding: 1px 7px;
+        font-size: 10px;
+    }
+    h2{
+        line-height: 5px;
+    }
+    .day-time{
+        font-size: 14px;
+    }
+    .join-dietition .dlogo-button{
+        padding: 10px 20px;
+    }
+    .states {
+        flex-wrap: wrap;
+        margin-top: 30.8px;
+    }
+    .meet-dietitian-contant h3{
+        padding-top: 20px;
+    }
+    .meet-dietitian-contant {
+        padding-bottom: 120px;
+    }
+    .btn-subscribe{
+        padding: 11px 20px;
+    }
+    .dietitian-list {
+        top: -70px;
+    }
+ }
